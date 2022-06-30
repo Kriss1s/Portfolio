@@ -1,0 +1,33 @@
+.navbar {
+  height: 6vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.15rem;
+}
+.link {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 2em;
+  color: white;
+  transition: all 1.5s ease;
+
+  &:hover {
+    color: #ff6363;
+    border-bottom: 1px solid #ff6363;
+  }
+}
+.active {
+  color: #ff6363;
+  border-bottom: 1px solid #ff6363;
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+    height: 4vh;
+    font-size: 1rem;
+  }
+} ;

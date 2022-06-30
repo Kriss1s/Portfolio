@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #2d2e32;
+  background-size: contain;
+  color: #ffeedb;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+.will-be {
+  height: 96vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+// @media (max-width: 1200px) {
+//   body {
+//     font-size: 0.9rem;
+//   }
+// }
