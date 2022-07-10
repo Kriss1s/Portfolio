@@ -8,12 +8,10 @@ export default function MainPage() {
     <>
       <section className=' background stars'></section>
       <section className='mainpage-container'>
-        {/* <Navigation /> */}
         <Navbar />
         <section className='main-section'>
           <Outlet />
         </section>
-        {/* <footer>tttttt</footer> */}
       </section>
     </>
   );
